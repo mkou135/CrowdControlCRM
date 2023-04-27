@@ -1,0 +1,42 @@
+.notifications {
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .notifications h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .notifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .notifications li {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .notifications li:last-child {
+    border-bottom: none;
+  }
+  
+  .notifications .message {
+    background-color: #f0f0f0;
+  }
+  
+  .notifications .alert {
+    background-color: #fff3cd;
+  }
+  
+  .notifications .update {
+    background-color: #e0f7fa;
+  }
+  

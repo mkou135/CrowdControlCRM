@@ -1,0 +1,269 @@
+.leads {
+    padding: 5rem;
+  }
+  
+  .leads-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .icon-button {
+    margin: 5px;
+  }
+  
+  .leads h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .lead-list {
+    width: 100%;
+  }
+  
+  .lead-list table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .leads .lead-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leads .lead-list th,
+  .leads .lead-list td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .leads .lead-list th {
+    font-weight: bold;
+  }
+  
+  .leads .lead-list .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .leads .lead-details {
+    margin-top: 1rem;
+  }
+  
+  .lead-list th,
+  .lead-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .lead-list tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .lead-list th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .lead-details {
+    margin-top: 1rem;
+  }
+  
+  .lead-details h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lead-details p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lead-list .actions {
+    display: flex;
+  }
+  
+  .lead-list .actions svg {
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .lead-list .actions svg:last-child {
+    margin-right: 0;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .search-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .search-add input {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-add svg {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .lead-popup {
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s;
+    -webkit-animation: fadeIn 0.3s;
+  }
+  
+  .add-lead-form label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  
+  .add-lead-form input,
+  .add-lead-form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .delete-confirmation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .add-lead-form {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 25%; /* Adjust the width to your liking */
+    background-color: #fff;
+    border-left: 1px solid #e0e0e0;
+    padding: 3rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  .add-lead-form label,
+  .add-lead-form input,
+  .add-lead-form textarea {
+    margin-bottom: 0.5rem;
+  }
+  
+  .add-lead-form button[type="submit"] {
+    margin-right: 1rem;
+  }
+  
+  button.bin-button {
+    background-color: red;
+  }
+  
+  button.add-lead-button {
+    background-color: green;
+  }
+  
+  button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  .delete-confirmation p {
+    margin-bottom: 1rem;
+  }
+  
+  .delete-confirmation button {
+    margin-right: 0.5rem;
+  }
+  
+  .fadeIn {
+    animation: fadeIn 0.3s;
+  }
+  
+  .fadeOut {
+    animation: fadeOut 0.3s;
+  }
+  
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  

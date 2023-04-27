@@ -1,0 +1,24 @@
+.home {
+    margin: 0% 3%;
+  }
+
+  .components-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    grid-gap: 1rem;
+  }
+  
+
+  .components-wrapper > * {
+    border: 1px solid black;
+    height: 60vh;
+  }
+  
+  .home h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  /* Add more CSS rules for your Home component here */
+  

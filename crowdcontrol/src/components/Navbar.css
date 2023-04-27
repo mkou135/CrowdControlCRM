@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    background-color: #1877F2; /* Facebook blue color */
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .sidebar-toggle,
+  .dark-mode-toggle {
+    background-color: #385898;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar-toggle:hover,
+  .dark-mode-toggle:hover {
+    background-color: #1d3c74;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  

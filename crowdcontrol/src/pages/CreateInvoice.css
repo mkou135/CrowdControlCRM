@@ -1,0 +1,31 @@
+.create-invoice {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .create-invoice h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .create-invoice h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .create-invoice input,
+  .create-invoice textarea,
+  .create-invoice button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .create-invoice .item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  

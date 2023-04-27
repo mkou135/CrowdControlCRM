@@ -1,0 +1,73 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar-arrow {
+    position: absolute;
+    top: 1rem;
+    left: -5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-arrow:hover {
+    background-color: #4b4b4b;
+  }
+  
+  
+  
+
+  .sidebar-close {
+    background-color: #4b4b4b;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-close:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-nav a:hover {
+    background-color: #4b4b4b;
+  }
+  
+  .sidebar-nav a.active {
+    background-color: #1877F2; /* Facebook blue color */
+  }
+  

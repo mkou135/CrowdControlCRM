@@ -1,0 +1,33 @@
+.client-full-view {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 7fr;
+  grid-template-areas:
+    "back-button details"
+    "quick-links details";
+  height: 100vh;
+  width: 100%;
+  margin: 5%;
+}
+
+.back-button {
+  grid-area: back-button;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.quick-links {
+  grid-area: quick-links;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+.details {
+  grid-area: details;
+  padding: 1rem;
+}
+
+/* Add other styles as needed */

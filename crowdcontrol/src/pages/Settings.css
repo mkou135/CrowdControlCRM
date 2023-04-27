@@ -1,0 +1,12 @@
+.settings {
+    padding: 1rem;
+  }
+  
+  .settings h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add more CSS rules for your Settings component here */
+  

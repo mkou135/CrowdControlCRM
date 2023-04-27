@@ -1,0 +1,61 @@
+.upcoming-events {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .upcoming-events h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .upcoming-events ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .upcoming-events li {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden; /* Add this line */
+  }
+  
+  .upcoming-events li:last-child {
+    border-bottom: none;
+  }
+  
+  .upcoming-events h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .upcoming-events p {
+    margin: 0;
+  }
+  
+  .upcoming-events .events-container {
+    height: 50vh;
+    overflow-y: auto;
+  }
+  
+
+.upcoming-events .events-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.upcoming-events .events-container::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.upcoming-events .events-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}

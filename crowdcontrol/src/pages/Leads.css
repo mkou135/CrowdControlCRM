@@ -1,0 +1,12 @@
+.leads {
+    padding: 1rem;
+  }
+  
+  .leads h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Add more CSS rules for your Leads component here */
+  

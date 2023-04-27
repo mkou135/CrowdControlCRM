@@ -1,0 +1,62 @@
+h3 {
+    text-align: center;
+}
+
+  .chart-select {
+    margin-top: 0;
+    margin-bottom: 1%;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .container {
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 2%;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+  }
+  
+.chart {
+    margin: 0 auto;
+  }
+  
+  
+  .container:hover {
+    background-color: #fcfcfc;
+  }
+  
+
+  
+  .alerts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .alert-item {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .alert-item.warning {
+    background-color: #fce9da;
+    color: #b85600;
+  }
+  
+  .alert-item.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
